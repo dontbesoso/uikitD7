@@ -1,3 +1,8 @@
+INTRO
+-----
+
+This theme is a custom theme made for one page drupal site.
+
 CONTENTS OF THIS FILE
 ---------------------
 
