@@ -75,9 +75,9 @@
  * @ingroup uikit_themeable
  */
 ?>
-<header<?php print $header_attributes; ?>>
+<header style="background-color: #fff;" data-uk-sticky="show-on-up: true; animation: uk-animation-fade; media: @l" <?php print $header_attributes; ?>>
   <nav<?php print $navbar_attributes; ?>>
-    <div class="uk-navbar-left">
+    <div class="uk-navbar-left nav-overlay uk-visible@m">
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" id="site-logo" class="uk-navbar-item uk-logo" title="<?php print t('Home'); ?>" rel="home">
           <img class="uk-margin-small-right" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
